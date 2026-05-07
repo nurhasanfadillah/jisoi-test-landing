@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jisoi - Custom Pouch Branding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: #0a0a0a;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 0; border-bottom: 1px solid #1a1a1a;
+        }
+        .logo { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
+        .logo span { color: #22c55e; }
+        nav a {
+            color: #a0a0a0; text-decoration: none; font-size: 14px; font-weight: 500;
+            padding: 10px 24px; border: 1px solid #333; border-radius: 8px;
+            transition: all .2s;
+        }
+        nav a:hover { border-color: #22c55e; color: #fff; }
+
+        .hero {
+            padding: 100px 0 80px; text-align: center;
+        }
+        .hero h1 {
+            font-size: clamp(36px, 6vw, 64px);
+            font-weight: 800; letter-spacing: -1.5px;
+            line-height: 1.1; margin-bottom: 20px;
+        }
+        .hero h1 span { background: linear-gradient(135deg, #22c55e, #16a34a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p {
+            font-size: clamp(16px, 2vw, 20px);
+            color: #a0a0a0; max-width: 600px; margin: 0 auto 36px;
+        }
+        .hero .cta {
+            display: inline-block; background: #22c55e; color: #000;
+            font-weight: 700; font-size: 16px; padding: 14px 40px;
+            border-radius: 12px; text-decoration: none;
+            transition: all .2s;
+        }
+        .hero .cta:hover { background: #16a34a; transform: translateY(-2px); }
+        .hero .badge {
+            display: inline-block; margin-bottom: 24px;
+            background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.3);
+            color: #22c55e; font-size: 13px; font-weight: 600;
+            padding: 6px 16px; border-radius: 100px;
+        }
+
+        .features {
+            padding: 80px 0; border-top: 1px solid #1a1a1a;
+        }
+        .features h2 {
+            text-align: center; font-size: 32px; font-weight: 700;
+            margin-bottom: 48px;
+        }
+        .grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: #111; border: 1px solid #1a1a1a;
+            border-radius: 16px; padding: 32px 24px; text-align: center;
+            transition: all .2s;
+        }
+        .card:hover { border-color: #22c55e; transform: translateY(-4px); }
+        .card .icon { font-size: 36px; margin-bottom: 16px; }
+        .card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+        .card p { font-size: 14px; color: #a0a0a0; line-height: 1.5; }
+
+        footer {
+            text-align: center; padding: 40px 0;
+            border-top: 1px solid #1a1a1a; color: #555; font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Jis<span>oi</span></div>
+            <a href="https://wa.me/6281234567890">Hubungi Kami</a>
+        </nav>
+
+        <section class="hero">
+            <div class="badge">🔥 Custom Pouch untuk Brand Anda</div>
+            <h1>Pouch Custom Logo<br><span>2-3 Hari Siap</span></h1>
+            <p>Cetak pouch dengan logo brand Anda. Proses cepat, hasil full color, tanpa MOQ besar. Cocok untuk perusahaan, komunitas, dan acara.</p>
+            <a class="cta" href="https://wa.me/6281234567890">Pesan Sekarang</a>
+        </section>
+
+        <section class="features">
+            <h2>Kenapa Pilih Jisoi?</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">⚡</div>
+                    <h3>Proses Cepat</h3>
+                    <p>Produksi 2-3 hari setelah konfirmasi. Pesan mendadak? Siap.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🎨</div>
+                    <h3>Full Color</h3>
+                    <p>Cetak DTF, logo brand tampil hidup dengan warna tajam.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📦</div>
+                    <h3>MOQ Mulai 1 Pcs</h3>
+                    <p>Pesan satuan atau banyak, fleksibel sesuai kebutuhan.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💰</div>
+                    <h3>Harga Transparan</h3>
+                    <p>Mulai Rp20.000/pcs. Free mockup & desain.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2026 Jisoi. Custom Pouch untuk Brand Anda.
+        </footer>
+    </div>
+</body>
+</html>
