@@ -64,8 +64,11 @@
             margin-bottom: 48px;
         }
         .grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            display: grid; grid-template-columns: repeat(2, 1fr);
             gap: 24px;
+        }
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
         }
         .card {
             background: #111; border: 1px solid #1a1a1a;
